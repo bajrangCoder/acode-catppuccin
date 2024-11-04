@@ -18,19 +18,19 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="assets/previews/latte.png"/>
+<img src="https://raw.githubusercontent.com/bajrangCoder/acode-catppuccin/main/assets/previews/latte.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="assets/previews/frappe.png"/>
+<img src="https://raw.githubusercontent.com/bajrangCoder/acode-catppuccin/main/assets/previews/frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="assets/previews/macchiato.png"/>
+<img src="https://raw.githubusercontent.com/bajrangCoder/acode-catppuccin/main/assets/previews/macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="assets/previews/mocha.png"/>
+<img src="https://raw.githubusercontent.com/bajrangCoder/acode-catppuccin/main/assets/previews/mocha.png"/>
 </details>
 
 ## Installation
