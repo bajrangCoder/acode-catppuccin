@@ -1,0 +1,15 @@
+{
+  "id": "acode.catppuccin",
+  "name": "Catppuccin",
+  "main": "dist/main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [],
+  "minVersionCode": 290,
+  "author": {
+    "name": "Raunak Raj",
+    "email": "bajrangcoders@gmail.com",
+    "github": "bajrangCoder"
+  }
+}
