@@ -108,8 +108,6 @@ class AcodePlugin {
         latte.popupActiveColor = "#ccd0da"; // Surface0
         latte.dangerColor = "#fe640b"; // Peach
         latte.preferredEditorTheme = "catppuccin-latte";
-        latte.fileTabWidth = "135px";
-        console.log(latte.toJSON("hex"))
         return latte;
     }
     frappeAppTheme() {
@@ -136,8 +134,6 @@ class AcodePlugin {
         frappe.popupActiveColor = "#414559"; // Surface0
         frappe.dangerColor = "#ef9f76"; // Peach
         frappe.preferredEditorTheme = "catppuccin-frappe";
-        frappe.fileTabWidth = "135px";
-        console.log(frappe.toJSON("hex"))
         return frappe;
     }
     macchiatoAppTheme() {
@@ -164,8 +160,6 @@ class AcodePlugin {
         macchiato.popupActiveColor = "#363a4f"; // Surface0
         macchiato.dangerColor = "#f5a97f"; // Peach
         macchiato.preferredEditorTheme = "catppuccin-macchiato";
-        macchiato.fileTabWidth = "135px";
-        console.log(macchiato.toJSON("hex"))
         return macchiato;
     }
     mochaAppTheme() {
@@ -193,15 +187,12 @@ class AcodePlugin {
         mocha.popupActiveColor = "#313244";
         mocha.dangerColor = "#fab387";
         mocha.preferredEditorTheme = "catppuccin-mocha";
-        mocha.fileTabWidth = "135px";
-        console.log(mocha.toJSON("hex"))
         return mocha;
     }
     onThemeChange(value) {
-        const themeName = value.replace('ace/theme/', '');
-        if (value.includes(THEME_PREFIX)) {
+        if (typeof value === "string" && value.includes(THEME_PREFIX)) {
+            const themeName = value?.replace('ace/theme/', '');
             editor.setTheme(`ace/theme/${themeName}`);
-            settings.update({ editorTheme: themeName });
         }
     }
 
