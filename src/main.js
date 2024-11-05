@@ -191,7 +191,11 @@ class AcodePlugin {
     }
     onThemeChange(value) {
         if (typeof value === "string" && value.includes(THEME_PREFIX)) {
-            const themeName = value?.replace('ace/theme/', '');
+            let themeName = value;
+            if(value.startsWith("ace/theme/")) {
+                themeName = value?.replace('ace/theme/', '');
+                settings.update({ editorTheme: themeName });
+            }
             editor.setTheme(`ace/theme/${themeName}`);
         }
     }
