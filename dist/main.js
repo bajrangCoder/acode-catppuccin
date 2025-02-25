@@ -1,4 +1,4 @@
-"use strict";(()=>{var m=(a,c)=>()=>(a&&(c=a(a=0)),c);var k=(a,c)=>()=>(c||a((c={exports:{}}).exports,c),c.exports);var u,b=m(()=>{u={id:"acode.catppuccin",name:"Catppuccin",main:"dist/main.js",version:"1.0.1",readme:"readme.md",icon:"icon.png",files:[],minVersionCode:290,license:"MIT",keywords:["catppuccin","theme","ace"],changelogs:"changelogs.md",author:{name:"Raunak Raj",email:"bajrangcoders@gmail.com",github:"bajrangCoder"}}});var s,g=m(()=>{"use strict";s=`.ace-catppuccin-latte {
+"use strict";(()=>{var m=(a,c)=>()=>(a&&(c=a(a=0)),c);var k=(a,c)=>()=>(c||a((c={exports:{}}).exports,c),c.exports);var u,b=m(()=>{u={id:"acode.catppuccin",name:"Catppuccin",main:"dist/main.js",version:"1.0.3",readme:"readme.md",icon:"icon.png",files:[],minVersionCode:290,license:"MIT",keywords:["catppuccin","theme","ace"],changelogs:"changelogs.md",author:{name:"Raunak Raj",email:"bajrangcoders@gmail.com",github:"bajrangCoder"}}});var s,g=m(()=>{"use strict";s=`.ace-catppuccin-latte {
   color: #4c4f69;
   background-color: #eff1f5;
   /**
